@@ -5,7 +5,7 @@
 
 The Isabelle sources are included in a separate directory called `thys/`
 
-Theory `LLEarleyParsing` has been modified to support executability. 
+Theory `LocalLexing2.LLEarleyParsing` has been modified to support executability.
 Theory `DerivationTrees` contains the basic formalization of derivation trees in CFGs, upon which theory `SPPF` builds for parse tree reconstruction.  
 <!--
 **LocalLexingParser/LocalLexingParser** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

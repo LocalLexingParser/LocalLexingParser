@@ -1,5 +1,5 @@
 theory DerivationTrees1
-  imports  "OperatorAmbiguity" "LocalLexing2.Ladder"  "LocalLexing2.TheoremD6" 
+  imports  "LocalLexing2.Ladder"  "LocalLexing2.TheoremD6"
 begin
 text "extends CFG derivations with derivation trees"
 

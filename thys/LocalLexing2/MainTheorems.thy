@@ -172,7 +172,8 @@ proof -
       using \<alpha> assms is_complete_def is_finished_def is_finished_x wellformed_item_def apply auto[1]
       using is_finished_def is_finished_x apply auto
       using item_nonterminal_def item_rhs_def apply(simp add: item_nonterminal_def item_rhs_def) 
-      using \<alpha> is_finished_x wellformed_x wellformed_item_def item_dot_def is_complete_def by force
+      using \<alpha> is_finished_x wellformed_x wellformed_item_def item_dot_def is_complete_def prod.collapse[of "item_rule x"]
+      by force+
       
     then have "\<exists> \<alpha>. x = finished_item \<alpha>" by blast
   }

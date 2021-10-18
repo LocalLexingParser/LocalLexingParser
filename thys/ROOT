@@ -1,14 +1,9 @@
 chapter AFP
 
-session LocalLexingThesis (AFP) = Containers +
+session LocalLexingThesis (AFP) = LocalLexing2 +
   sessions
-    LocalLexing2
+    Regex_Equivalence
   theories
     DerivationTrees1
     LocalLexingSpecification
-    OperatorAmbiguity
-    Pattern1
-    Pattern
-    Rewriting1
-    Rewriting
     SPPF

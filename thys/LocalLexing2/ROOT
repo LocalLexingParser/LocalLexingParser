@@ -1,6 +1,6 @@
 chapter AFP
 
-session LocalLexing2 (AFP) = HOL +
+session LocalLexing2 (AFP) = Containers +
   options [timeout = 300]
   theories
     CFG

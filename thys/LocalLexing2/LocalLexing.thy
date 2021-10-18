@@ -77,7 +77,7 @@ definition limitOn::"'a set \<Rightarrow> ('a set \<Rightarrow> 'a set) \<Righta
 "limitOn a f x = a \<inter> limit f x"
 
 locale LocalLexing = CFG +
-  fixes Lex :: "('a, 'b) symbol \<Rightarrow> ('c::ccompare) lexer"
+  fixes Lex :: "('a::ccompare, 'b::ccompare) symbol \<Rightarrow> ('c::ccompare) lexer"
   fixes Sel :: " ('a, 'b, 'c) selector"
   assumes Lex_is_lexer: "\<forall> t \<in> \<TT>. is_lexer (Lex t)"
   assumes Sel_is_selector: "is_selector Sel"
